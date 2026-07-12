@@ -7,11 +7,8 @@ A modern, responsive redesign of Project Gutenberg’s user interface brings con
 - [Overview](#overview)
 - [Preview](#preview)
 - [Tech Stack](#tech-stack)
-- [Repository Structure](#repository-structure)
 - [Features](#features)
 - [Installation Guide](#installation-guide)
-- [Usage](#usage)
-- [Constraints & Future Improvements](#constraints--future-improvements)
 - [License](#license)
 
 ## Overview
