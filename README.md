@@ -25,6 +25,7 @@ The objective is to demonstrate professional UI/UX design principles while respe
 ![Project Gutenberg Landing Page](images/landing-page.png)
 
 The redesigned interface features a clean, professional layout with:
+
 - Fixed navigation bar with responsive menu toggle and prominent logo
 - Integrated search functionality for book discovery
 - Featured sections for latest and popular public domain books with cover images
