@@ -13,9 +13,9 @@ A modern, responsive redesign of Project Gutenberg’s user interface brings con
 
 ## Overview
 
-Project Gutenberg is a dedicated effort to digitize and archive cultural works in the public domain. This redesign project focuses on modernizing the user experience and accessibility of the original platform through contemporary front-end web technologies.
+This project modernizes Project Gutenberg's user interface by bringing contemporary web standards to the world's oldest digital library while preserving its distinctive vintage aesthetic and typography. Rather than abandoning the library's established visual identity, this redesign enhances usability and accessibility through responsive design and clean front-end architecture.
 
-The objective is to demonstrate professional UI/UX design principles while respecting the mission of providing free access to literature without barriers. This project was developed as part of a comprehensive web programming course focused on front-end development mastery.
+The goal is to demonstrate professional UI/UX design that respects the platform's heritage and mission—providing free access to public domain literature—while showcasing modern web development practices including semantic HTML5, CSS3 flexbox layouts, and vanilla JavaScript interactivity. This project was developed as part of a comprehensive web programming course focused on mastering front-end development fundamentals.
 
 ## Preview
 
