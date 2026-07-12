@@ -1,6 +1,6 @@
 # Project Gutenberg - Front-End Redesign
 
-A modern, responsive redesign of Project Gutenberg's user interface, bringing contemporary web standards to the world's oldest digital library while preserving its core mission of providing free access to public domain literature.
+A modern, responsive redesign of Project Gutenberg’s user interface brings contemporary web standards to the world’s oldest digital library. It preserves its core style and trypography, maintaining the vintage aesthetic of the library while still showcasing its mission of providing free access to public domain literature.
 
 ## Table of Contents
 
@@ -41,33 +41,6 @@ The redesigned interface features a clean, professional layout with:
 | **JavaScript (Vanilla)** | Lightweight, dependency-free interactivity for menu toggles, search functionality, and responsive behavior without external frameworks. |
 | **SVG Icons**            | Scalable vector graphics for interface elements (search, close buttons, menu icons) ensuring crisp display at all resolutions.          |
 
-## Repository Structure
-
-```
-project-gutenberg/
-├── Home.html              # Main landing page with featured books and search
-├── catalog.html           # Book catalog with filtering and pagination
-├── about.html             # Project information and mission statement
-├── help.html              # User support and FAQ documentation
-├── donate.html            # Donation information and contribution options
-├── home.css               # Primary stylesheet with responsive layouts
-├── script.js              # Core interactivity (menu toggle, responsive behavior)
-├── images/
-│   ├── pglogo/            # Project Gutenberg logos (light/dark variants)
-│   ├── books/             # Book cover images and thumbnails
-│   └── socials/           # Social media icons and links
-├── README.md              # Project documentation
-└── LICENSE                # MIT License
-```
-
-**Key Design Decisions:**
-
-- Centralized CSS for consistent styling across all pages
-- Vanilla JavaScript to eliminate dependencies and reduce bundle size
-- SVG icons for crisp, scalable interface elements
-- Fixed navigation for persistent access to site features
-- Semantic HTML structure for improved accessibility
-
 ## Features
 
 ### Core Functionality
@@ -87,11 +60,6 @@ project-gutenberg/
 
 ## Installation Guide
 
-### Prerequisites
-
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- A local web server (for development)
-
 ### Setup Steps
 
 1. **Clone the repository:**
@@ -100,121 +68,6 @@ project-gutenberg/
    git clone https://github.com/yourusername/project-gutenberg.git
    cd project-gutenberg
    ```
-
-2. **Start a local web server:**
-
-   Using Python 3:
-
-   ```bash
-   python -m http.server 8000
-   ```
-
-   Using Python 2:
-
-   ```bash
-   python -m SimpleHTTPServer 8000
-   ```
-
-   Using Node.js (install http-server globally):
-
-   ```bash
-   npm install -g http-server
-   http-server
-   ```
-
-3. **Access the application:**
-
-   ```
-   http://localhost:8000
-   ```
-
-4. **Navigate through pages:**
-   - Click "Home" in the navigation menu
-   - Use the hamburger icon on mobile devices to toggle the menu
-   - Click book covers to view details (placeholder pages available)
-
-### Why a Local Server?
-
-HTML files use relative paths for stylesheets and scripts. Opening files directly with `file://` protocol can cause CORS issues and prevent proper loading of resources. A local web server ensures all assets load correctly.
-
-## Usage
-
-### For Users
-
-1. **Browsing Books:**
-   - Start at the home page to view latest and popular books
-   - Click on any book cover to view detailed information
-   - Use the search bar to find books by title, author, publisher, or ISBN
-
-2. **Navigation:**
-   - Use the top navigation menu to access different sections
-   - On mobile devices, click the hamburger icon to reveal the menu
-   - The menu automatically collapses on screens narrower than 1100px
-
-3. **Search:**
-   - Enter search terms in the dedicated search field
-   - Results update based on your query
-   - Filter by author or genre for more refined results
-
-### For Developers
-
-**Customizing Styling:**
-
-- Edit `home.css` to modify colors, fonts, and layouts
-- All CSS follows a single-file architecture for maintainability
-- Uses flexbox for layout (no float-based or grid-based layouts)
-
-**Adding Interactive Features:**
-
-- Extend `script.js` with additional event listeners
-- Current implementation includes menu toggle and responsive resize handler
-- Consider extracting features into separate files for larger projects
-
-**Modifying Content:**
-
-- Update HTML files to change page structure
-- Replace book images in `images/books/` directory
-- Update book metadata in carousel/grid sections
-
-## Constraints & Future Improvements
-
-### Current Limitations
-
-1. **Static Book Data** — Book information is hardcoded in HTML rather than dynamically loaded from an API or database
-2. **Limited Interactivity** — Search functionality is not connected to actual data filtering; results must be wired to backend
-3. **Placeholder Pages** — About, Help, and Donate pages are template files without full implementation
-4. **No Backend Integration** — No server-side functionality; all features are front-end only
-5. **Browser Compatibility** — Modern CSS features may not support older browsers (IE11 and below)
-
-### Planned Enhancements
-
-**Short-term:**
-
-- Implement functional search filtering with JavaScript
-- Complete About, Help, and Donate page content
-- Add book detail modal/page with full descriptions
-- Implement donation form with payment gateway integration
-
-**Medium-term:**
-
-- Connect to Project Gutenberg API or similar book database
-- Add user authentication and reading history
-- Implement wishlist/favorites functionality
-- Add book recommendations based on user history
-
-**Long-term:**
-
-- Migrate to React/Vue.js for component reusability and state management
-- Implement PWA functionality for offline reading
-- Add dark mode toggle with persistent user preferences
-- Build backend API with Node.js/Python for user data and book metadata
-- Integrate e-reader functionality for browser-based book reading
-
-### Technical Debt
-
-- CSS could be modularized using BEM methodology for larger-scale projects
-- JavaScript should be refactored into ES6 modules as functionality grows
-- Consider build tooling (Webpack, Vite) as the project scales
 
 ## License
 
