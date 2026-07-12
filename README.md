@@ -22,12 +22,14 @@ The objective is to demonstrate professional UI/UX design principles while respe
 
 ## Preview
 
-| Section                    | Description                                                                                                                                                  |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Navigation & Header**    | Fixed navigation bar with responsive menu toggle, prominent logo, and integrated search functionality. Donation prompt banner encourages user contributions. |
-| **Featured Books Section** | Carousel-style display of the latest and most popular public domain books with cover images, titles, and direct access links.                                |
-| **Search & Browse**        | Optimized search interface allowing users to find books by title, author, publisher, or ISBN with real-time filtering.                                       |
-| **Responsive Design**      | Mobile-first approach ensuring seamless experience across all device sizes with hamburger menu toggle for smaller screens.                                   |
+![Project Gutenberg Landing Page](images/landing-page.png)
+
+The redesigned interface features a clean, professional layout with:
+- Fixed navigation bar with responsive menu toggle and prominent logo
+- Integrated search functionality for book discovery
+- Featured sections for latest and popular public domain books with cover images
+- Donation prompt banner encouraging user contributions
+- Mobile-first responsive design with hamburger menu for smaller screens
 
 ## Tech Stack
 
